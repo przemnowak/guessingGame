@@ -28,5 +28,5 @@ else:
         elif guess > number:
             print("Guess lower!")
     if win:
-        print("Correct! \n"
-              "You did it in " + str(tries) + " tries!")
+        print("Correct! \n" +
+              uName + " ,you did it in " + str(tries) + " tries!")
